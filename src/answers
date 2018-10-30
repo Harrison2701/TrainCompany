@@ -1,0 +1,25 @@
+14) a)  It is possible for a class to have two constructors as long as the two constructors have different parameters.
+        The first constructor takes in two strings as parameters while the second parameter doesn't take in any parameters.
+    b)
+
+15) a)  For routeCode, the appropriate data type would be string. For delay, the appropriate data type would be int.
+        For weatherRelated, the appropriate type would be a boolean.
+    c)  "T290", 10, 1
+
+16) a)  4.5
+    b)
+
+ 18)a)  Inheritance is used to organize classes. With a superclass, it allows subclasses to inherit methods and instance
+        variabes from the super class unless stated otherwise. For this example, you can write a class called Transportation.
+        Afterwards, you can write another class to extend to Transportation. It allows you to write less code and organize the classes.
+
+ 19)a)It would be inefficient when dealing with large array.
+    b)
+
+  20)c)    public String convert(Codes[] c){
+               for(int i = 0; i < numberOfJourneys; i++){
+                   if(c[i] == c[i+1]){
+                       //print route code of c[i]
+                   }
+               }
+           }
